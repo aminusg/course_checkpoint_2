@@ -1,0 +1,32 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #73dab2;
+}
+
+.flex {
+    margin: 10px;
+}
+.flexSeven {
+    background-color: #f1f1f1;
+    display: flex;
+    height: 400px;
+    justify-content: space-between;
+    width: 500px;
+}
+.flexSeven >.one, .two, .three, .four {
+    display: flex;
+    flex-direction: column;
+}
+.flexSeven >.one {
+    justify-content: center;
+}
+.flexSeven >.two {
+    justify-content: flex-end;
+}
+.flexSeven >.three {
+    justify-content: flex-start;
+}
+.flexSeven >.four {
+    justify-content: space-between;
+}
